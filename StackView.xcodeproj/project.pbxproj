@@ -14,6 +14,7 @@
 		C0B97DA52169F98A0020F4C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0B97DA32169F98A0020F4C1 /* LaunchScreen.storyboard */; };
 		C0B97DB02169F98A0020F4C1 /* StackViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B97DAF2169F98A0020F4C1 /* StackViewTests.swift */; };
 		C0B97DBB2169F98A0020F4C1 /* StackViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B97DBA2169F98A0020F4C1 /* StackViewUITests.swift */; };
+		C0B97DC92169FA920020F4C1 /* MainViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B97DC82169FA920020F4C1 /* MainViews.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		C0B97DB62169F98A0020F4C1 /* StackViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StackViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0B97DBA2169F98A0020F4C1 /* StackViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackViewUITests.swift; sourceTree = "<group>"; };
 		C0B97DBC2169F98A0020F4C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0B97DC82169FA920020F4C1 /* MainViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViews.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				C0B97D9A2169F9890020F4C1 /* AppDelegate.swift */,
 				C0B97D9C2169F9890020F4C1 /* ViewController.swift */,
+				C0B97DC82169FA920020F4C1 /* MainViews.swift */,
 				C0B97D9E2169F9890020F4C1 /* Main.storyboard */,
 				C0B97DA12169F98A0020F4C1 /* Assets.xcassets */,
 				C0B97DA32169F98A0020F4C1 /* LaunchScreen.storyboard */,
@@ -258,6 +261,7 @@
 			files = (
 				C0B97D9D2169F9890020F4C1 /* ViewController.swift in Sources */,
 				C0B97D9B2169F9890020F4C1 /* AppDelegate.swift in Sources */,
+				C0B97DC92169FA920020F4C1 /* MainViews.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
